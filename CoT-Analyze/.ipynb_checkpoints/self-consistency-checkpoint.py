@@ -1,10 +1,11 @@
 """
-python self-consistency.py --model_path Qwen/Qwen2.5-Math-1.5B --output_file try.jsonl 
+python self-consistency.py --model_path Qwen/Qwen2.5-Math-1.5B --output_file qwen64.jsonl --num_return_sequences 64
 python self-consistency.py --model_path meta-llama/Llama-3.2-1B-Instruct --output_file llama64.jsonl --num_return_sequences 64
 python self-consistency.py --model_path /root/autodl-tmp/data/models/modelscope_cache/models/lijia321/ttrl_step_50_qwen_1.5B --output_file 50step64.jsonl --num_return_sequences 64
 python self-consistency.py --model_path /root/autodl-tmp/data/models/modelscope_cache/models/lijia321/consistency_step_80 --output_file scresults/consistency_step_80_bo64.jsonl --num_return_sequences 64
 python self-consistency.py --model_path Qwen/Qwen2.5-Math-1.5B --output_file try64_1.jsonl --num_return_sequences 64
 python self-consistency.py --model_path Qwen/Qwen2.5-Math-1.5B --dataset_name AI-MO/aimo-validation-amc --split train --output_file amc.jsonl --num_return_sequences 64
+python self-consistency.py --model_path Qwen/Qwen2.5-Math-1.5B --output_file qwen64.jsonl --num_return_sequences 64 --dataset_name  --split   --max_samples
 """
 import json
 import torch
