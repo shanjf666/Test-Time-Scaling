@@ -1,5 +1,5 @@
 """
-python validate_correlation.py --input_file /root/autodl-tmp/data/analyze.jsonl
+python validate_correlation.py --input_file analyze.jsonl
 """
 import json
 import argparse

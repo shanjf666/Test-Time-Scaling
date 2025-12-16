@@ -1,6 +1,7 @@
 """
 python evaluate.py --input_file qwen64.jsonl --output_file analyze.jsonl --model_path Qwen/Qwen2.5-Math-1.5B --max_samples 1
 python evaluate.py --input_file 50step64.jsonl --output_file analyze50step.jsonl --model_path Qwen/Qwen2.5-Math-1.5B
+python evaluate.py --input_file amc.jsonl --output_file analyze.jsonl --model_path Qwen/Qwen2.5-Math-1.5B
 """
 import json
 import torch
